@@ -19,10 +19,13 @@ Software Engineer at **BEDEL SARL** · Nouakchott, Mauritania (GMT) · open to r
 
 ## Open source
 
-- **React** — [PR #37213](https://github.com/facebook/react/pull/37213) merged by core maintainer Sebastian Silbermann (Fizz server renderer). Three more fixes under review, each with a failing-first regression test: a Scheduler crash after jsdom teardown ([#37115](https://github.com/facebook/react/pull/37115)), a Fizz streaming hang where an outlined Suspense boundary's abandoned fallback blocked its parent ([#37181](https://github.com/facebook/react/pull/37181)), and missing `onToggle` on hydrated `<dialog>` ([#37262](https://github.com/facebook/react/pull/37262)).
-- **VulnClaw** (AI pentest CLI, 2.7k★) — [PR #221](https://github.com/Netw0rkNoob/VulnClaw/pull/221) merged: cross-platform test fix (POSIX vs Windows `cmd` quoting).
-- **[react-contributions](https://github.com/SidiEyel/react-contributions)** — minimal reproductions and write-ups for each of the bugs above.
-- **[@sidieyel/wysiwyg-editor](https://github.com/SidiEyel/wysiwyg)** — lightweight, themeable Tiptap-based editor for React, on npm.
+| Project | Contribution | Status |
+|---|---|---|
+| **React** — facebook/react | Test fix in the Fizz server renderer, [PR #37213](https://github.com/facebook/react/pull/37213) | **Merged** by core maintainer Sebastian Silbermann |
+| **React** | Fizz streaming hang: an outlined Suspense boundary's abandoned fallback blocked its parent — [#37181](https://github.com/facebook/react/pull/37181) · Scheduler crash after jsdom teardown — [#37115](https://github.com/facebook/react/pull/37115) · missing `onToggle` on hydrated `<dialog>` — [#37262](https://github.com/facebook/react/pull/37262) | Under review, each with a failing-first regression test |
+| **VulnClaw** — AI penetration-testing CLI, 2.7k★ | Test suite failed on any machine where the interpreter is only `python3`; first fix used `shlex.quote`, which broke the Windows `cmd` CI legs — diagnosed from the logs and reworked so the command keeps the same shape on POSIX and Windows. Issue [#218](https://github.com/Netw0rkNoob/VulnClaw/issues/218) → [PR #221](https://github.com/Netw0rkNoob/VulnClaw/pull/221) | **Merged** by the project owner; listed contributor |
+| **[react-contributions](https://github.com/SidiEyel/react-contributions)** | Runnable minimal reproductions and write-ups for each React bug above | — |
+| **[@sidieyel/wysiwyg-editor](https://github.com/SidiEyel/wysiwyg)** | Lightweight, themeable Tiptap-based editor for React, published on npm | — |
 
 ## How I work
 
