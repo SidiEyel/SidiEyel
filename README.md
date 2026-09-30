@@ -1,53 +1,37 @@
-# Hi, I'm Sidi Eyel 👋
+# Sidi Eyel
 
-**Full-Stack Software Engineer** at **SMART MS SA** · Mauritania
+**Full-Stack Software Engineer** — Laravel · React / Next.js · Flutter · PostgreSQL · LLM integration
+Software Engineer at **BEDEL SARL** · Nouakchott, Mauritania (GMT) · open to remote roles and freelance work
 
-I build scalable SaaS, fintech, and multi-tenant platforms — and I enjoy
-turning complex ideas into simple, production-ready products.
+[![Portfolio](https://img.shields.io/badge/Portfolio-sidieyel.vercel.app-0f766e?style=flat-square)](https://sidieyel.vercel.app/en)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-sidieye-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sidieye)
+[![npm](https://img.shields.io/npm/v/%40sidieyel%2Fwysiwyg-editor?style=flat-square&label=%40sidieyel%2Fwysiwyg-editor)](https://www.npmjs.com/package/@sidieyel/wysiwyg-editor)
 
-- 🔭 **Currently:** building SaaS & multi-tenant platforms, deepening my expertise in system design and scalable architecture
-- 🤝 **Open to:** collaborating with startups and teams on SaaS, fintech, and AI products
-- 💬 **Ask me about:** React, Next.js, Node.js, Laravel, TypeScript, APIs, and shipping production web apps
-- 🌐 **Portfolio:** [sidieyel.vercel.app](https://sidieyel.vercel.app/en)
+## Products I've shipped (all live)
 
-## 🛠 Tech Stack
+| Product | What it is | My part | Stack |
+|---|---|---|---|
+| [**Bedel**](https://bedel.mr) · [App Store](https://apps.apple.com/mr/app/bedel/id6472602322) · [Google Play](https://play.google.com/store/apps/details?id=com.bedel.app) | Fintech super-app for Mauritania: payments, recharge & gift cards, 30+ services | Laravel/PostgreSQL backend, REST APIs, OTP auth, wallet payments, Arabic/French LLM assistant | Laravel · PostgreSQL · Next.js · React Native · LLM |
+| **Sha6er** · [App Store](https://apps.apple.com/mr/app/sha6er/id6566187655) · [Google Play](https://play.google.com/store/apps/details?id=com.smartmssa.sha6erv1) | Food delivery, 4.6★ — real-time courier tracking, wallet payments, restaurateur dashboard | Flutter app + Next.js web app | Flutter · Next.js · WebSockets |
+| [**Tahdir**](https://tahdir.digiwave-tech.com) | Exam-prep platform for civil-service competitions — 152 specializations, timed mock exams, adaptive levels, online payment | Built and operated by me, end to end | Next.js · Laravel · PostgreSQL |
+| [**Smart Claim**](https://www.smartmssa.com/smart-claim-2-2/) | Claims-management SaaS — customizable forms, role-based access, real-time notifications | Full-stack | React · REST · PostgreSQL |
+| [**AB Group Gift Cards**](https://abgroupgiftcards.com) | Digital gift-card platform, Arabic/English | Auth and payment flows (freelance) | Next.js · Supabase |
 
-**Frontend**
+## Open source
 
-![React](https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-593d88?style=for-the-badge&logo=redux&logoColor=white)
-![React Query](https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
+- **React** — [PR #37213](https://github.com/facebook/react/pull/37213) merged by core maintainer Sebastian Silbermann (Fizz server renderer). Three more fixes under review, each with a failing-first regression test: a Scheduler crash after jsdom teardown ([#37115](https://github.com/facebook/react/pull/37115)), a Fizz streaming hang where an outlined Suspense boundary's abandoned fallback blocked its parent ([#37181](https://github.com/facebook/react/pull/37181)), and missing `onToggle` on hydrated `<dialog>` ([#37262](https://github.com/facebook/react/pull/37262)).
+- **VulnClaw** (AI pentest CLI, 2.7k★) — [PR #221](https://github.com/Netw0rkNoob/VulnClaw/pull/221) merged: cross-platform test fix (POSIX vs Windows `cmd` quoting).
+- **[react-contributions](https://github.com/SidiEyel/react-contributions)** — minimal reproductions and write-ups for each of the bugs above.
+- **[@sidieyel/wysiwyg-editor](https://github.com/SidiEyel/wysiwyg)** — lightweight, themeable Tiptap-based editor for React, on npm.
 
-**Backend & Databases**
+## How I work
 
-![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4ea94b?style=for-the-badge&logo=mongodb&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+Failing test first, then the fix. Small PRs with a written test plan. Clear async updates — all of my open-source work is done in written English. I read the last paragraph of every spec before I write code.
 
-**Mobile**
+## Stack
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-20232a?style=for-the-badge&logo=react&logoColor=61DAFB)
+**Backend** Laravel/PHP · Node.js · Django REST · Spring Boot · Strapi  **·**  **Frontend** React · Next.js · TypeScript · Tailwind  **·**  **Mobile** Flutter · React Native  **·**  **Data** PostgreSQL · MySQL · MongoDB · Supabase  **·**  **AI** OpenAI-compatible LLM APIs, document extraction, workflow automation  **·**  **Practices** Git/PR flow · CI · regression tests · Docker
 
-**DevOps & Tools**
+## Contact
 
-![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2671E5?style=for-the-badge&logo=githubactions&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-
-## 📫 Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sidi-eyel)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sidi.eyel@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://sidieyel.vercel.app/en)
+sidi.eyel@gmail.com · [sidieyel.vercel.app](https://sidieyel.vercel.app/en) · Arabic (native) · French (B2) · English (B2)
